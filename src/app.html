@@ -1,3 +1,14 @@
 <template>
-  <h1>${message}</h1>
+    <h1>${message}</h1>
+    <ul id="parent-list" click.trigger="delegateMethod($event)">
+        <li id="post-1" click.trigger="delegateMethod1($event)">Item 1</li>
+        <li id="post-2" click.trigger="delegateMethod1($event)">Item 2</li>
+        <li id="post-3" click.trigger="delegateMethod1($event)">Item 3</li>
+        <li id="post-4">Item 4</li>
+        <li id="post-5">Item 5</li>
+        <li id="post-6">Item 6</li>
+    </ul>
+
+    <p repeat.for="friend of friends">Hello, ${friend}!</p>
+    <button click.trigger="httpCall()">Click here for HTTP CALL</button>
 </template>

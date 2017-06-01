@@ -82,4 +82,6 @@ bower_components
 dist
 coverage
 /.project
-/.idea 
+/.idea
+.idea/misc.xml
+.idea/workspace.xml
