@@ -1,7 +1,11 @@
 <template>
   <h1>${message}</h1>
   <input value.one-way="firstName">
+  <input value.bind="firstName">
   <input value.one-time="lastName">
+  <input value.two-way="midName">
+
+
 
   <button click.trigger="sayHello()">Say Hello</button>
 </template>

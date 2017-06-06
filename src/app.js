@@ -1,8 +1,8 @@
 export class App {
 
-
-    firstName = 'John';
-    lastName = 'Doe';
+    firstName = 'ONE-WAY';
+    lastName = 'ONE-TIME';
+    midName = 'TWO-WAY';
     message = 'Welcome to Aurelia!';
     i = 0;
 
@@ -33,9 +33,13 @@ export class App {
     }
 
     sayHello() {
-        alert('Hello ' + this.firstName + ' ' + this.lastName + '. Nice to meet you.');
-        this.lastName = this.lastName + "" + this.i;
+        //alert('Hello ' + this.firstName + ' ' + this.lastName + '. Nice to meet you.');
+
         this.firstName = this.firstName + "" + this.i;
+        this.lastName = this.lastName + "" + this.i;
+        this.midName = this.midName + "" + this.i;
         this.i = this.i + 1;
+
+
     }
 }

@@ -89,3 +89,5 @@ demo/demo.css
 /server/local/state.json
 guest-demo.css
 protection-demo.css
+.idea/misc.xml
+.idea/workspace.xml
