@@ -4,23 +4,23 @@
 1. Install NodeJS version 4.x or above.
 
 
-    You can download it here  - https://nodejs.org/en/
+        You can download it here  - https://nodejs.org/en/
 
 
 2. Install a Git Client
 
 
-Here's a nice GUI client - https://desktop.github.com/
+        Here's a nice GUI client - https://desktop.github.com/
 
 
-Here's a standard client - https://git-scm.com/
+        Here's a standard client - https://git-scm.com/
 
 
 
- To RUN this app
+ To RUN this app   install HTTP-SERVER
+
+
+        npm install http-server -g
 
  
- npm install http-server -g
-
- 
- http-server -o -c-1
+        http-server -o -c-1
