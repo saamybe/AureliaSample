@@ -1,8 +1,23 @@
 <template>
-  <h1>${message}</h1>
-  <input value.one-way="firstName">
-  <input value.bind="firstName">
-  <input value.one-time="lastName">
-  <input value.two-way="midName">
-  <button click.trigger="onButtonClick()">BUTTON</button>
+    <div>
+        <h1>${message}</h1>
+
+        <div> ONE - WAY BINDING</div>
+        <input class="input-border" value.one-way="firstName">
+
+
+        <div> DEFAULT BINDING</div>
+        <input class="input-border"  value.bind="firstName">
+
+        <div> ONE TIME BINDING</div>
+        <input class="input-border"  value.one-time="lastName">
+
+        <div> TWO WAY BINDING</div>
+        <input class="input-border"  value.two-way="midName">
+
+        <div>
+            <button class="my-button" click.trigger="onButtonClick()">BUTTON</button>
+        </div>
+    </div>
+
 </template>
