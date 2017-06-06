@@ -16,13 +16,20 @@
         Here's a standard client - https://git-scm.com/
 
 
+3. Clone this project using below command and navigate to AureliaSample project root folder
 
- 3. install HTTP-SERVER
+
+        git clone https://github.com/saamybe/AureliaSample.git
+
+
+
+ 4. Install HTTP-SERVER
 
 
         npm install http-server -g
 
- 4. RUN this app using below command
+
+ 5. RUN this app using below command
 
 
         http-server -o -c-1

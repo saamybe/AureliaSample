@@ -8,38 +8,34 @@ export class App {
 
     constructor() {
 
-        console.log('constructor');
+        console.log('Constructor Called First ');
 
     }
 
     created() {
-        console.log('created');
+        console.log('Invoked created after constructor');
     }
 
     bind() {
-        console.log('bind');
+        console.log('Invoked bind callback');
     }
 
     attached() {
-        console.log('attached');
+        console.log(' Invoked when component is attached to the DOM - only if this callback is implemented');
     }
 
     detached() {
-        console.log('detached');
+        console.log(' Invoked when removed from the DOM if detached is implemented');
     }
 
     unbind() {
-        console.log('unbind');
+        console.log('After a component is detached if you have unbind callback , It will be invoked');
     }
 
-    sayHello() {
-        //alert('Hello ' + this.firstName + ' ' + this.lastName + '. Nice to meet you.');
-
+    onButtonClick() {
         this.firstName = this.firstName + "" + this.i;
         this.lastName = this.lastName + "" + this.i;
         this.midName = this.midName + "" + this.i;
         this.i = this.i + 1;
-
-
     }
 }
