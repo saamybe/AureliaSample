@@ -17,10 +17,12 @@
 
 
 
- To RUN this app   install HTTP-SERVER
+ 3. install HTTP-SERVER
 
 
         npm install http-server -g
 
- 
+ 4. RUN this app using below command
+
+
         http-server -o -c-1
