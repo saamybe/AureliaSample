@@ -1,6 +1,3 @@
 export class App {
-    constructor() {
-        this.guest = 'Welcome to Aurelia!';
-    }
-
+  message = 'Welcome to Aurelia!';
 }

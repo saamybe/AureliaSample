@@ -1,8 +1,0 @@
-<template bindable="name">
-    <require from="./new-custom-element2.html"></require>
-    <require from="./new-custom-element3.html"></require>
-
-    <p>What is your name? <input type="text" value.bind="name & debounce" /></p>
-    <new-custom-element2 question="Are you leaving?" answer.two-way="sayGoodbye"></new-custom-element2>
-    <new-custom-element3 if.bind="sayGoodbye" name.bind="name"></new-custom-element3>
-</template>
