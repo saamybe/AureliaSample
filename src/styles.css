@@ -173,3 +173,22 @@ div.au-stagger {
     opacity: 1;
   }
 }
+.alert-panel {
+  padding:20px;
+  background-color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  font-family:$font-family-regular;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  border:2px solid #d75426;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 1;
+}
+
+
+

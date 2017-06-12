@@ -1,0 +1,13 @@
+<template>
+    <div class="alert-panel">
+        <div>
+            <h2>My First Aureia Modal/Dialog</h2>
+            <h3>${myinfo.firstName} ${myinfo.lastName}</h3>
+        </div>
+
+        <div>
+            <button click.trigger="dialogController.cancel()">Cancel</button>
+            <button click.trigger="dialogController.ok(person)">Ok</button>
+        </div>
+    </div>
+</template>
