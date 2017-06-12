@@ -1,0 +1,9 @@
+<template>
+    <p>*********Compose with View Modal - START *********</p>
+    <p>Hello, My name is ${data.name} and I work in ${data.city}.</p>
+    <p>My likes include:</p>
+    <ol>
+        <li repeat.for="like of data.likes">${like}</li>
+    </ol>
+    <p>*********Compose with View Modal - END *********</p>
+</template>

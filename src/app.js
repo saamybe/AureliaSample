@@ -1,3 +1,15 @@
+
 export class App {
-  message = 'Welcome to Aurelia!';
+    constructor() {
+
+        this.data = {
+            name: 'Saminathan Ponnusamy',
+            city: 'Windsor CT',
+            likes: ['Aurelia', 'Android', 'iOS']
+        };
+
+    }
+
+
 }
+
